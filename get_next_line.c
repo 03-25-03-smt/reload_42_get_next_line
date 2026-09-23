@@ -39,7 +39,7 @@ static char *fill_line(char *stash)
     len++;
   if (stash[len] == '\n')                                  // если мы нашли '\n' мы должны скопировать его в другую строку и вернуть "Hello\n"
     len++;
-  line = malloc(len + 1;);                                // обьявляем новую строку 
+  line = malloc(len + 1);                                // обьявляем новую строку 
   if (!line)
 		return (NULL);
   i = 0;
