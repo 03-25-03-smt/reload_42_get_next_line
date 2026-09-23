@@ -1,4 +1,4 @@
-get_next_line_utils_bonus.c
+#include "get_next_line_utils_bonus.h"
 
 char  *ft_strchr(const char *s, int c)
 {
